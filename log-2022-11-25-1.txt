@@ -1,0 +1,100 @@
+2022/11/25 17:08:22 Parellel update completed 1 of 20
+2022/11/25 17:08:22 [UpdatePerson1] begin tx
+2022/11/25 17:08:22 [UpdatePerson2] begin tx
+2022/11/25 17:08:22 [UpdatePerson2] begin tx
+2022/11/25 17:08:22 [UpdatePerson1] begin tx
+2022/11/25 17:08:22 [UpdatePerson1] done tx
+2022/11/25 17:08:22 [UpdatePerson1] done tx
+2022/11/25 17:08:22 [UpdatePerson2] done tx
+2022/11/25 17:08:22 [UpdatePerson2] done tx
+2022/11/25 17:08:22 Parellel update completed 2 of 20
+2022/11/25 17:08:22 Parellel update completed 3 of 20
+2022/11/25 17:08:22 [UpdatePerson1] begin tx
+2022/11/25 17:08:22 [UpdatePerson2] begin tx
+2022/11/25 17:08:22 [UpdatePerson1] begin tx
+2022/11/25 17:08:22 [UpdatePerson2] begin tx
+2022/11/25 17:08:23 [UpdatePerson2] done tx
+2022/11/25 17:08:23 [UpdatePerson1] done tx
+2022/11/25 17:08:23 [UpdatePerson1] done tx
+2022/11/25 17:08:23 [UpdatePerson2] done tx
+2022/11/25 17:08:23 Parellel update completed 4 of 20
+2022/11/25 17:08:23 Parellel update completed 5 of 20
+2022/11/25 17:08:23 Parellel update completed 6 of 20
+2022/11/25 17:08:23 [UpdatePerson2] begin tx
+2022/11/25 17:08:23 [UpdatePerson1] begin tx
+2022/11/25 17:08:23 [UpdatePerson1] begin tx
+2022/11/25 17:08:23 [UpdatePerson2] begin tx
+2022/11/25 17:08:23 [UpdatePerson1] begin tx
+2022/11/25 17:08:23 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 Parellel update completed 7 of 20
+2022/11/25 17:08:24 Parellel update completed 8 of 20
+2022/11/25 17:08:24 Parellel update completed 9 of 20
+2022/11/25 17:08:24 Parellel update completed 10 of 20
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 [UpdatePerson1] done tx
+2022/11/25 17:08:24 [UpdatePerson2] done tx
+2022/11/25 17:08:24 Parellel update completed 11 of 20
+2022/11/25 17:08:24 Parellel update completed 12 of 20
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson2] begin tx
+2022/11/25 17:08:24 [UpdatePerson1] begin tx
+2022/11/25 17:08:25 [UpdatePerson1] done tx
+2022/11/25 17:08:25 [UpdatePerson2] done tx
+2022/11/25 17:08:25 [UpdatePerson1] done tx
+2022/11/25 17:08:25 [UpdatePerson2] done tx
+2022/11/25 17:08:25 Parellel update completed 13 of 20
+2022/11/25 17:08:25 Parellel update completed 14 of 20
+2022/11/25 17:08:25 Parellel update completed 15 of 20
+2022/11/25 17:08:25 [UpdatePerson1] begin tx
+2022/11/25 17:08:25 [UpdatePerson2] begin tx
+2022/11/25 17:08:25 [UpdatePerson1] begin tx
+2022/11/25 17:08:25 [UpdatePerson2] begin tx
+2022/11/25 17:08:25 [UpdatePerson1] begin tx
+2022/11/25 17:08:25 [UpdatePerson2] begin tx
+2022/11/25 17:08:26 [UpdatePerson1] done tx
+2022/11/25 17:08:26 [UpdatePerson1] done tx
+2022/11/25 17:08:26 [UpdatePerson2] done tx
+2022/11/25 17:08:26 [UpdatePerson1] done tx
+2022/11/25 17:08:26 [UpdatePerson2] done tx
+2022/11/25 17:08:26 [UpdatePerson2] done tx
+2022/11/25 17:08:26 Parellel update completed 16 of 20
+2022/11/25 17:08:26 Parellel update completed 17 of 20
+2022/11/25 17:08:26 [UpdatePerson1] begin tx
+2022/11/25 17:08:26 [UpdatePerson2] begin tx
+2022/11/25 17:08:26 [UpdatePerson2] begin tx
+2022/11/25 17:08:26 [UpdatePerson1] begin tx
+2022/11/25 17:08:26 [UpdatePerson1] done tx
+2022/11/25 17:08:26 [UpdatePerson1] done tx
+2022/11/25 17:08:26 [UpdatePerson2] done tx
+2022/11/25 17:08:26 [UpdatePerson2] done tx
+2022/11/25 17:08:26 Parellel update completed 18 of 20
+2022/11/25 17:08:26 Parellel update completed 19 of 20
+2022/11/25 17:08:26 [UpdatePerson1] begin tx
+2022/11/25 17:08:26 [UpdatePerson2] begin tx
+2022/11/25 17:08:26 [UpdatePerson2] begin tx
+2022/11/25 17:08:26 [UpdatePerson1] begin tx
+2022/11/25 17:08:27 [UpdatePerson1] done tx
+2022/11/25 17:08:27 [UpdatePerson2] done tx
+2022/11/25 17:08:27 [UpdatePerson2] done tx
+2022/11/25 17:08:27 [UpdatePerson1] done tx
+2022/11/25 17:08:27 Parellel update completed 20 of 20

@@ -18,7 +18,6 @@ func main() {
 	// run binary in console as $  ./binaryname -p a-password
 	var dbPassword = flag.String("p", "password", " provide database password")
 	flag.Parse()
-	fmt.Printf("password %s \n", *dbPassword)
 
 	db, err := sql.Open("mysql", fmt.Sprintf("root:%s@tcp(127.0.0.1:3310)/dbdev1", *dbPassword))
 
