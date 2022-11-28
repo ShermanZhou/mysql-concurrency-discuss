@@ -13,6 +13,7 @@ import (
 )
 
 var totalTests int = 20
+var artificialLatency = time.Millisecond * 1000
 
 func main() {
 	// run binary in console as $  ./binaryname -p a-password
@@ -36,8 +37,11 @@ func main() {
 	var waitGroup sync.WaitGroup
 
 	for i := 0; i < totalTests; i++ {
+
 		go updatePerson1(db, defaultContext, &waitGroup)
+		waitGroup.Add(1)
 		go updatePerson2(db, defaultContext, &waitGroup)
+		waitGroup.Add(1)
 		// make sure both transactions are completed to run next in parallel.
 		waitGroup.Wait()
 		log.Printf("Parellel update completed %d of %d\n", i+1, totalTests)
@@ -49,9 +53,11 @@ var inserPhone string = "INSERT into dbdev1.PHONE (PERSON_ID, PHONE) values (?, 
 var deletePhone string = "DELETE from dbdev1.PHONE where PERSON_ID = ?"
 
 func updatePerson1(db *sql.DB, ctx context.Context, wg *sync.WaitGroup) {
-	wg.Add(1)
 	defer wg.Done() // task will be count done if done or fail
-	tx, err := db.BeginTx(ctx, nil)
+	txOps := sql.TxOptions{
+		Isolation: sql.LevelReadCommitted,
+	}
+	tx, err := db.BeginTx(ctx, &txOps)
 	log.Printf("[UpdatePerson1] begin tx\n")
 	if err != nil {
 		log.Printf("[UpdatePerson1] db execution error %t \n", err)
@@ -66,7 +72,7 @@ func updatePerson1(db *sql.DB, ctx context.Context, wg *sync.WaitGroup) {
 	db.ExecContext(ctx, inserPhone, 1, "416-111-1111")
 	db.ExecContext(ctx, deletePhone, 1)
 	// increase chance to catch dead lock
-	time.Sleep(time.Millisecond * 500)
+	time.Sleep(artificialLatency)
 	err = tx.Commit()
 	if err != nil {
 		log.Printf("[UpdatePerson1] commit error %t \n", err)
@@ -76,9 +82,11 @@ func updatePerson1(db *sql.DB, ctx context.Context, wg *sync.WaitGroup) {
 }
 
 func updatePerson2(db *sql.DB, ctx context.Context, wg *sync.WaitGroup) {
-	wg.Add(1)
 	defer wg.Done() // task will be count done if done or fail
-	tx, err := db.BeginTx(ctx, nil)
+	txOps := sql.TxOptions{
+		Isolation: sql.LevelReadCommitted,
+	}
+	tx, err := db.BeginTx(ctx, &txOps)
 	log.Printf("[UpdatePerson2] begin tx\n")
 	if err != nil {
 		log.Printf("[UpdatePerson2] db execution error %t \n", err)
@@ -93,7 +101,7 @@ func updatePerson2(db *sql.DB, ctx context.Context, wg *sync.WaitGroup) {
 	db.ExecContext(ctx, inserPhone, 2, "416-222-2222")
 	db.ExecContext(ctx, deletePhone, 2)
 	// increase chance to catch dead lock
-	time.Sleep(time.Millisecond * 500)
+	time.Sleep(artificialLatency)
 	err = tx.Commit()
 	if err != nil {
 		log.Printf("[UpdatePerson2] commit error %t \n", err)
