@@ -1,0 +1,102 @@
+Person has count 2, completed sql driver sanity test 
+2022/11/28 14:33:43 [UpdatePerson2] begin tx
+2022/11/28 14:33:43 [UpdatePerson1] begin tx
+2022/11/28 14:33:44 [UpdatePerson2] done tx
+2022/11/28 14:33:44 [UpdatePerson1] done tx
+2022/11/28 14:33:44 Parellel update completed 1 of 20
+2022/11/28 14:33:44 [UpdatePerson1] begin tx
+2022/11/28 14:33:44 [UpdatePerson2] begin tx
+2022/11/28 14:33:45 [UpdatePerson1] done tx
+2022/11/28 14:33:45 [UpdatePerson2] done tx
+2022/11/28 14:33:45 Parellel update completed 2 of 20
+2022/11/28 14:33:46 [UpdatePerson1] begin tx
+2022/11/28 14:33:46 [UpdatePerson2] begin tx
+2022/11/28 14:33:47 [UpdatePerson1] done tx
+2022/11/28 14:33:47 [UpdatePerson2] done tx
+2022/11/28 14:33:47 Parellel update completed 3 of 20
+2022/11/28 14:33:47 [UpdatePerson1] begin tx
+2022/11/28 14:33:47 [UpdatePerson2] begin tx
+2022/11/28 14:33:48 [UpdatePerson2] done tx
+2022/11/28 14:33:48 [UpdatePerson1] done tx
+2022/11/28 14:33:48 Parellel update completed 4 of 20
+2022/11/28 14:33:48 [UpdatePerson2] begin tx
+2022/11/28 14:33:48 [UpdatePerson1] begin tx
+2022/11/28 14:33:49 [UpdatePerson2] done tx
+2022/11/28 14:33:49 [UpdatePerson1] done tx
+2022/11/28 14:33:49 Parellel update completed 5 of 20
+2022/11/28 14:33:49 [UpdatePerson2] begin tx
+2022/11/28 14:33:49 [UpdatePerson1] begin tx
+2022/11/28 14:33:50 [UpdatePerson2] done tx
+2022/11/28 14:33:50 [UpdatePerson1] done tx
+2022/11/28 14:33:50 Parellel update completed 6 of 20
+2022/11/28 14:33:50 [UpdatePerson1] begin tx
+2022/11/28 14:33:50 [UpdatePerson2] begin tx
+2022/11/28 14:33:51 [UpdatePerson2] done tx
+2022/11/28 14:33:51 [UpdatePerson1] done tx
+2022/11/28 14:33:51 Parellel update completed 7 of 20
+2022/11/28 14:33:51 [UpdatePerson2] begin tx
+2022/11/28 14:33:51 [UpdatePerson1] begin tx
+2022/11/28 14:33:52 [UpdatePerson2] done tx
+2022/11/28 14:33:52 [UpdatePerson1] done tx
+2022/11/28 14:33:52 Parellel update completed 8 of 20
+2022/11/28 14:33:52 [UpdatePerson1] begin tx
+2022/11/28 14:33:52 [UpdatePerson2] begin tx
+2022/11/28 14:33:53 [UpdatePerson1] done tx
+2022/11/28 14:33:53 [UpdatePerson2] done tx
+2022/11/28 14:33:53 Parellel update completed 9 of 20
+2022/11/28 14:33:53 [UpdatePerson1] begin tx
+2022/11/28 14:33:53 [UpdatePerson2] begin tx
+2022/11/28 14:33:55 [UpdatePerson2] done tx
+2022/11/28 14:33:55 [UpdatePerson1] done tx
+2022/11/28 14:33:55 Parellel update completed 10 of 20
+2022/11/28 14:33:55 [UpdatePerson1] begin tx
+2022/11/28 14:33:55 [UpdatePerson2] begin tx
+2022/11/28 14:33:56 [UpdatePerson2] done tx
+2022/11/28 14:33:56 [UpdatePerson1] done tx
+2022/11/28 14:33:56 Parellel update completed 11 of 20
+2022/11/28 14:33:56 [UpdatePerson2] begin tx
+2022/11/28 14:33:56 [UpdatePerson1] begin tx
+2022/11/28 14:33:57 [UpdatePerson2] done tx
+2022/11/28 14:33:57 [UpdatePerson1] done tx
+2022/11/28 14:33:57 Parellel update completed 12 of 20
+2022/11/28 14:33:57 [UpdatePerson2] begin tx
+2022/11/28 14:33:57 [UpdatePerson1] begin tx
+2022/11/28 14:33:58 [UpdatePerson1] done tx
+2022/11/28 14:33:58 [UpdatePerson2] done tx
+2022/11/28 14:33:58 Parellel update completed 13 of 20
+2022/11/28 14:33:58 [UpdatePerson1] begin tx
+2022/11/28 14:33:58 [UpdatePerson2] begin tx
+2022/11/28 14:33:59 [UpdatePerson2] done tx
+2022/11/28 14:33:59 [UpdatePerson1] done tx
+2022/11/28 14:33:59 Parellel update completed 14 of 20
+2022/11/28 14:33:59 [UpdatePerson1] begin tx
+2022/11/28 14:33:59 [UpdatePerson2] begin tx
+2022/11/28 14:34:00 [UpdatePerson2] done tx
+2022/11/28 14:34:00 [UpdatePerson1] done tx
+2022/11/28 14:34:00 Parellel update completed 15 of 20
+2022/11/28 14:34:00 [UpdatePerson1] begin tx
+2022/11/28 14:34:00 [UpdatePerson2] begin tx
+2022/11/28 14:34:01 [UpdatePerson1] done tx
+2022/11/28 14:34:01 [UpdatePerson2] done tx
+2022/11/28 14:34:01 Parellel update completed 16 of 20
+2022/11/28 14:34:01 [UpdatePerson1] begin tx
+2022/11/28 14:34:01 [UpdatePerson2] begin tx
+2022/11/28 14:34:03 [UpdatePerson2] done tx
+2022/11/28 14:34:03 [UpdatePerson1] done tx
+2022/11/28 14:34:03 Parellel update completed 17 of 20
+2022/11/28 14:34:03 [UpdatePerson1] begin tx
+2022/11/28 14:34:03 [UpdatePerson2] begin tx
+2022/11/28 14:34:04 [UpdatePerson2] done tx
+2022/11/28 14:34:04 [UpdatePerson1] done tx
+2022/11/28 14:34:04 Parellel update completed 18 of 20
+2022/11/28 14:34:04 [UpdatePerson2] begin tx
+2022/11/28 14:34:04 [UpdatePerson1] begin tx
+2022/11/28 14:34:05 [UpdatePerson2] done tx
+2022/11/28 14:34:05 [UpdatePerson1] done tx
+2022/11/28 14:34:05 Parellel update completed 19 of 20
+2022/11/28 14:34:05 [UpdatePerson1] begin tx
+2022/11/28 14:34:05 [UpdatePerson2] begin tx
+2022/11/28 14:34:06 [UpdatePerson1] done tx
+2022/11/28 14:34:06 [UpdatePerson2] done tx
+2022/11/28 14:34:06 Parellel update completed 20 of 20
+All update tests are completed%                   
